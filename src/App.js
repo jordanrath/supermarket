@@ -59,14 +59,11 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/supermarket">
       <Navbar cart={cart} />
       <div className="container">
         <Switch>
           <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/supermarket">
             <Home />
           </Route>
           <Route exact path="/about">
