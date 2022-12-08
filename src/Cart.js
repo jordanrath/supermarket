@@ -97,8 +97,7 @@ export default function Cart({ cart }) {
                 delivered to you on the same day!
                 <br />
                 <em>
-                  Enter your own Stripe Publishable Key in Cart.js for the
-                  checkout to work
+                  {/* Enter Stripe publishable key for checkout to work. */}
                 </em>
               </p>
               <Input
