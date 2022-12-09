@@ -3,7 +3,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import Input from "./Input.js";
 import Button from "./Button.js";
 
-// TODO: Replace with your own publishable key
+// TODO: Replace with publishable key
 const stripeLoadedPromise = loadStripe("pk_test_51HsqkCGuhXEITAut89vmc4jtjYd7XPs8hWfo2XPef15MFqI8rCFc8NqQU9WutlUBsd8kmNqHBeEmSrdMMpeEEyfT00KzeVdate");
 
 export default function Cart({ cart }) {
