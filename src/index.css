@@ -475,6 +475,44 @@ input:focus {
   }
 }
 
+@media (max-width: 500px) {
+  .home-layout,
+  .about-layout {
+    padding: 10px;
+  }
+
+  .home-image { 
+    width: 300px;
+  }
+  .container {
+    padding: unset;
+  }
+
+  .product {
+    padding: 8px 10px;
+  }
+
+  .product-info {
+    padding-left: 20px;
+  }
+
+  .product-image {
+    padding: unset;
+  }
+
+  .product h3 {
+    font-size: 20px;
+  }
+
+  .product p {
+    font-size: 11px;
+  }
+
+  .pay-form {
+    padding: 10px;
+  }
+}
+
 /* Loader */
 .spinner {
   animation: rotator 1.4s linear infinite;
