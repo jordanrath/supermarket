@@ -4,4 +4,4 @@ export default function ProductDetailStorage({ storage }) {
       <strong>Storage instructions:</strong> {storage}
     </p>
   );
-}
+};
