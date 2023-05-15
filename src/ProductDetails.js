@@ -84,4 +84,4 @@ export default function ProductDetails(props) {
       </div>
     </div>
   );
-}
+};
